@@ -22,6 +22,8 @@ body{
     justify-content: space-between;
 }
 i{
-
+    width:65px;
+    height:65px;
     color: var(--purple);
+    margin: 10px;
 }
