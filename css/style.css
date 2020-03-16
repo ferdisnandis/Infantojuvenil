@@ -1,19 +1,27 @@
+:root{
+    --purple: #8501FF;
+    --black: #1D1D1D; 
+    --blue: #0567FF;
+    --pink: #CD7AF1;
+    --white: #FEF5FF;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 *{
     margin: 0;
     padding: 0;
 }
-.roxo_escuro{
-    color: #8501FF;
+
+.container{
+    background-color: #1d1d1d;
+    width: 425px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-.preto{
-    color: #1D1D1D;
-}
-.azul{
-    color: #0567FF;
-}
-.rosa{
-    color: #CD7AF1;
-}
-.branco{
-    color: #FEF5FF;
+i{
+
+    color: var(--purple);
 }
