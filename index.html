@@ -12,18 +12,18 @@
 
 <body>
     <header>
-        <nav class="container">
-            <ul>
-                <li><a href="#" title="Barra de navegação">
-                        <i class="fas fa-bars"></i>
-                    </a>
-                </li>
+        <ul class="menu">
+            <li></li>
+            <a href="#menu" title="Acessar Menu" onclick="btnMenu()"><i
+                    class="fas fa-bars btn shadow circle"></i></a>
+            </a>
+            </li>
 
-                <li><a href="#" title="Logo">
-                        <i class="fas fa-italic"></i>
-                    </a>
-                </li>
-
+            <li><a href="#" title="Logo">
+                    <i class="fas fa-italic"></i>
+                </a>
+            </li>
+            <div class="juntos">
                 <li><a href="#" title="Perfil">
                         <i class="fas fa-user-circle"></i>
                     </a>
@@ -34,27 +34,78 @@
                     </a>
                 </li>
 
-            </ul>
-        </nav>
+                <nav id="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Videos</a></li>
+                    <li><a href="#">Comunidade</a></li>
+                    <li><a href="#">Livros</a></li>
+                    <li><a href="#">Cadastro</a></li>
+                    <li><a href="#">Jogos</a></li>
+                    <li><a href="#">Notícias</a></li>
+
+                </nav>
+            </div>
+        </ul>
     </header>
     <main>
-        <h1>Quem nós somos</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi dolorem ad omnis molestiae beatae tenetur
-            nostrum minima, voluptate sapiente. Voluptates cupiditate repellendus et ullam provident impedit excepturi,
-            officiis dolores sequi!</p>
-
-        <h2>Vídeos recentes</h2>
-        <div class="cards">
-            <h3>Vídeo 1</h3>
-            <img src="imagens/jogo 2.jpg" alt="Vídeo de desenho">
+        <img class="banner" src="imagens/banner.png" alt="Banner demonstrativo">
+        <div class="texto">
+            <h2>Quem nós somos</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam esse mollitia quasi voluptate minima!
+                Nobis
+                placeat perferendis magnam animi quia labore deserunt recusandae architecto, dicta necessitatibus
+                excepturi,
+                eum pariatur voluptate.</p>
         </div>
 
-        <h2>Jogos</h2>
+        <h2 class="recentes">Vídeos recentes</h2>
         <div class="cards">
+            <div>
+                <img src="imagens/loney_tunes.jpg" alt="Desenho Looney Tunes">
+                <a href="https://www.youtube.com/watch?v=nTAL53tcW7c"><i class="far fa-play-circle"></i></a>
+            </div>
         </div>
+
+        <div class="cards">
+            <div>
+                <img src="imagens/simpsons.jpeg" alt="Os Simpsons">
+                <a href="https://www.youtube.com/watch?v=fTovKcBR_U4&list=PLpfi8COiMzPF_zKq81e5Ffz4MuYkve3qG"><i
+                        class="far fa-play-circle"></i></a>
+            </div>
+        </div>
+
+        <div class="cards">
+            <div>
+                <img src="imagens/superpoderosas.jpg" alt="Meninas superpoderosas">
+                <a href="https://www.youtube.com/watch?v=iXzVw1Lhc9w"><i class="far fa-play-circle"></i>
+                </a>
+            </div>
+        </div>
+
+        <h2 class="recentes">Jogos</h2>
+        <div class="cards">
+            <img src="imagens/jogo 2.jpg" alt="Jogo Perguntados">
+            <a href="https://www.techtudo.com.br/tudo-sobre/perguntados.html" title="link para o jogo perguntados"></a>
+        </div>
+
+        <div class="cards jogos">
+            <img src="imagens/jogo 2.jpg" alt="Jogo Perguntados">
+            <a href="https://www.techtudo.com.br/tudo-sobre/perguntados.html" title="link para o jogo perguntados"></a>
+        </div>
+
+        <div class="cards jogos">
+            <img src="imagens/jogo 2.jpg" alt="Jogo Perguntados">
+            <a href="https://www.techtudo.com.br/tudo-sobre/perguntados.html" title="link para o jogo perguntados"></a>
+        </div>
+        
     </main>
-
+    <button type="button">Cadastre-se</button>
     <footer>
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-youtube"></i>
+        <i class="fab fa-instagram"></i>
+
     </footer>
 </body>
 

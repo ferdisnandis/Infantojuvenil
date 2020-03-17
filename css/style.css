@@ -1,29 +1,119 @@
 :root{
-    --purple: #8501FF;
-    --black: #1D1D1D; 
-    --blue: #0567FF;
-    --pink: #CD7AF1;
-    --white: #FEF5FF;
+    --preto: #1D1D1D;
+    --roxo: #8501FF;
+    --azul: #5067FF;
+    --rosa: #CD7AF1;
 }
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #A872D8;
 }
 *{
     margin: 0;
     padding: 0;
 }
-
 .container{
-    background-color: #1d1d1d;
+    width: 400px;
+}
+.juntos{
+    display: flex;
+}
+.juntos i{
+    margin: 0 10px;
+}
+.menu{
     width: 425px;
-    height: 100px;
+    height: 42px;
+    background-color: #1d1d1d;
+    justify-content: space-around;
+}
+ul{
+    list-style-type: none;
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
-i{
-    width:65px;
-    height:65px;
-    color: var(--purple);
-    margin: 10px;
+.menu i{
+    color: var(--roxo);
+    font-size: 45px;
+}
+.fa-italic{
+    margin-left: 100px;
+}
+.banner{
+    width: 425px;
+    height: 221px;
+    position: absolute;
+}
+.texto{
+    width: 420px;
+    color: white;
+    /* text-align: center; */
+    position: relative;
+}
+.texto h2{
+    text-align: center;
+}
+.texto p{
+    margin: 20px 10px;
+}
+.recentes{
+    margin-top: 110px;
+    margin-bottom: -50px;
+    margin-left: 40px;
+    color: white;
+}
+.cards{
+    margin-left: 50px;
+    margin-top: 70px;
+}
+.cards img{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+}
+.cards p{
+    font-size: larger;
+    
+}
+.cards i{
+    color: red;
+    font-size: 150px;
+    margin-top: 20px;
+    margin-left: -30px;
+}
+b{
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+p{
+    color: white;
+}
+.cards a{
+    position: relative;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+#menu{
+    display: none;
+}
+.jogos{
+    margin-top: 240px;
+}
+button{ 
+    margin-left: 160px;
+    margin-top: 210px;
+    align-items: center;
+}
+footer{
+    margin-top: 30px;
+    background-color: black;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer i{
+    color: var(--roxo);
+    font-size: xx-large;
 }
